@@ -1,0 +1,9 @@
+{
+    "funciones":[
+        {"id": "El Corsario", "hora": "7 a 9 p.m.-Lunes", "compra": "Boletos en Taquilla"},
+        {"id": "La Bayadere", "hora": "7 a 9 p.m.-Martes", "compra": "Boletos en Taquilla"},
+        {"id": "La Bella Durmiente", "hora": "7 a 10 p.m.-Jueves", "compra": "Pre Venta"},
+        {"id": "El Lago de los Cisnes", "hora": "7 a 10 p.m.-Viernes", "compra": "Pre Venta"},
+        {"id": "La Pequeña Mimada", "hora": "6 a 9 p.m.-Sábado", "compra": "Pre Venta"}
+    ]
+}

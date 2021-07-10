@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+     <!--Link a FONT-AWESOME-->
+     <link rel="stylesheet"
+     href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="css/formulario.css">
+    <script src="js/formulario.js"></script>
+</head>
+<body>
+    <!--ENCABEZADO FORMULARIO-->
+<div id="wrapper">
+    <div id="banner-wrapper">
+        <header>
+              <div class="header-inner">
+                  <a href="formulario.html" id="logo">
+                    <img src="./imagenes/otras/Royal Ballet.png" alt="Ballet Royal">                  
+                  </a>
+
+                  <nav id="menu2">
+                      <a href="#" id="icono-del-menu">
+                          <i class="fa fa-bars"></i>
+                      </a>
+                      <ul>
+                          <li>
+                              <a href="#" onclick="alert('Gracias Por Llenar El Formulario')">ENVIAR</a>
+                          </li>
+                          <li>
+                            <a href="index.html">CANCELAR</a>
+                          </li>
+                          <li>
+                            <a href="index.html">INICIO</a>
+                          </li>
+                          
+                      </ul>
+                  </nav>
+              </div>
+        </header>
+    </div>
+</div>
+<!--CONTENIDO-->
+<!--HEAD-->
+<div id="Head">
+    <header>
+        <h1>¡Regístrate! Llena el Siguiente Formulario</h1>
+    </header>
+</div> 
+<button onclick="todito()" id="boton">VER FORMULARIO</button> 
+<br><br>
+<!--Head End-->
+<!--REGISTRO-->
+<section id="todito" style="display: none;">
+<div id="Cajitas">
+    <h3 style="color: red;">*&nbsp;Campos Obligarotios</h3>            
+    <form id="usuario" name="usuario" 
+        action="ejemplo2.html" method="post"
+
+         >
+
+        <input type="hidden" name="noCarnet" value="12548">
+
+
+        <div class="fila">                
+            <label for="dspUsuario">&nbsp;Nombre*&nbsp;</label>
+            <input type="text" name="dspUsuario" id="dspUsuario" 
+                    value=""
+                    style="width: 200px;"
+                    class="form-control"
+                     required   >
+        </div>
+        <div class="fila">                
+            <label for="apellido">&nbsp;Apellido*&nbsp;</label>
+            <input type="text" name="dspApellido" id="dspApellido" 
+                    value=""
+                    style="width: 200px;"
+                    class="form-control"
+                     required   >
+        </div>
+        <div class="fila">                
+            <label for="direccion">&nbsp;Dirección de Domicilio*&nbsp;</label>
+             <textarea name="direccion" id="direccion" cols="40" rows="3" value=""
+             style="width: 200px;">Favor indicar su dirección</textarea>
+        </div>
+
+        
+        <div id="gen">
+            <legend>Género</legend>
+            <input type="radio" name="genero" id="femenino" value="F">
+            <label for="femenino">Femenino</label>
+            <input type="radio" name="genero" id="masculino" value="M">
+            <label for="masculino">Masculino</label>
+        </div>
+        
+        
+        <div class="fila">                
+            <label for="dspedad">&nbsp;Edad*&nbsp;</label>
+            <input type="number" name="dspedad" id="dspedad" 
+                    value=""
+                    style="width: 200px;"
+                    class="form-control"
+                     required   >
+        </div>
+        <div class="fila">
+            <label for="correo">Correo Electrónico*&nbsp;</label>
+            <input type="email"  class="form-control"
+                   name="correo" id="correo"
+                   style="width: 200px;">
+          </div>
+
+          <div class="fila">
+            <label for="clave">Contraseña*&nbsp;</label>
+            <input type="contraseña" class="form-control"
+                   name="clave" id="clave"
+                   style="width: 200px;">
+        </div>                
+
+        <div class="fila">
+            <label for="clave2">Confirme su Contraseña*&nbsp;</label>
+            <input type="contraseña" class="form-control"
+                   name="clave2" id="clave2"
+                   style="width: 200px;">
+        </div>  
+    </form>
+</div>
+</section>
+<div class="clearfix-padding"></div>  
+<!--FIN REGISTRO-->
+<!--PIE DE PÁGINA-->
+<footer>
+    <div class="banner--wrapper">
+     <div class="icon-text">
+         <div class="icon-text-icon">
+             <ul class="footer-nav">
+                 <li>
+                     <a href="index.html">INICIO</a>
+                 </li>
+                <li>
+                    <a href="formulario.html">LOGIN</a>
+                </li>
+                <li>
+                    <a href="creators.html">CREATORS</a>
+                </li>
+             </ul>
+         </div>
+
+         <div class="icon-text-text">
+             <ul class="social">
+                 <!--CORREO-->
+                <li>
+                     <a href="email:contact">
+                         <i class="fa fa-envelope-o"></i>
+                     </a>
+                 </li>
+                 <!--FACEBOOK-->
+                 <li>
+                 <a href="https://www.facebook.com/royaloperahouse" target="_blank">
+                  <i class="fa fa-facebook"></i>
+                 </a>    
+                 </li>
+                <!--TWITTER-->
+                <li>
+                    <a href="https://twitter.com/login/" target="_blank">
+                     <i class="fa fa-twitter"></i>
+                    </a>    
+                    </li>
+                <!--YOUTUBE-->
+                <li>
+                    <a href="https://www.youtube.com/channel/UCHS5XKgf2FCBF8pZllE_bjw" target="_blank">
+                     <i class="fa fa-youtube"></i>
+                    </a>    
+                </li>
+                <!--INSTAGRAM-->
+                <li>
+                    <a href="https://www.instagram.com/royaloperahouse/?hl=es-la" target="_blank">
+                     <i class="fa fa-instagram"></i>
+                    </a>    
+                </li>
+             </ul>
+         </div>
+     </div>
+
+
+
+
+
+    </div>
+</footer>
+
+<footer class="footer-second">
+    <p>
+        &copy; <a href="https://www.facebook.com/SABellart" target="_blank">Judith Reyes y Ulises Quintanilla</a>
+    </p>
+
+</footer>
+</body>
+</html>
